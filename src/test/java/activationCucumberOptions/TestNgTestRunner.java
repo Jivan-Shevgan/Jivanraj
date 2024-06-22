@@ -6,5 +6,7 @@ import io.cucumber.testng.CucumberOptions;
 			 plugin = {"pretty","html:target/cucumber.html"}) 
 public class TestNgTestRunner  extends AbstractTestNGCucumberTests 
 {
-	
+	public static void main(String[] args) {
+		System.out.println("Jivan added this line");
+	}
 }
